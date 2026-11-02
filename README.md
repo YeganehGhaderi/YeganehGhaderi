@@ -14,4 +14,4 @@ Artificial Intelligence · Machine Learning · Theory of Computation
 Python · pandas · NumPy · scikit-learn · XGBoost · matplotlib · C/C++ · Git · Linux
 
 ### 📫 Contact
-[Email](mailto:Yeganeh.Ghaderi84@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yeganeh-ghaderi-942a94445)
+[Email](mailto:Yeganeh.Ghaderi84@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yeganeh-ghaderi)
