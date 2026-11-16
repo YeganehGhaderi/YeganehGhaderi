@@ -5,7 +5,7 @@ I'm interested in **deep learning for medical and biological data**, especially 
 
 ### 🔬 Projects
 - **[numpy-autograd](https://github.com/YeganehGhaderi/numpy-autograd)**: a tensor-level autograd engine and neural-network library in pure NumPy (Linear, Dropout, SGD / Momentum / Adam). Verified against PyTorch with 75 tests and CI; an MLP trained with it reaches 89.0% test accuracy on Fashion-MNIST (PyTorch: 88.7%).
-- **[DermaMNIST transfer study](https://github.com/YeganehGhaderi/dermamnist-transfer-study)**: does ImageNet pretraining help on small, imbalanced skin-lesion images? A custom CNN vs. ResNet-18 from scratch vs. pretrained ResNet-18, written in plain PyTorch, with Focal Loss, oversampling, Grad-CAM and calibration.
+- **[DermaMNIST transfer study](https://github.com/YeganehGhaderi/dermamnist-transfer-study)**: does ImageNet pretraining help on small, imbalanced skin-lesion images? A custom CNN vs. ResNet-18 from scratch vs. pretrained ResNet-18, with the training loop, Focal Loss, Grad-CAM and temperature scaling written by hand in PyTorch (37 tests, CI). The pretrained model reached test Macro-F1 0.692 (vs. 0.520 from scratch, 3 seeds); melanoma recall stayed at 0.55, and the official split shares lesions between train and test, documented as a limitation.
 - **[Traffic Severity Prediction](https://github.com/YeganehGhaderi/traffic-severity-prediction)**: 4-class severity prediction on 100K imbalanced samples. Leakage-safe pipeline, SMOTE, feature selection (35→25) and SHAP. XGBoost reached Macro F1 0.577 (vs. 0.478 for the linear baseline).
 
 ### 🧩 Other
